@@ -32,8 +32,7 @@ func main() {
 			name: "Should return Xendit",
 			in:   20,
 			want: "Xendit",
-		}
-	}
+		}}
 	for _, tt := range tests {
 		result := xenDit(tt.in)
 		if result != tt.want {
